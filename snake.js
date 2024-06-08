@@ -1,6 +1,7 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
+//Declare variables
 const box = 20;
 const canvasWidth = canvas.width;
 const canvasHeight = canvas.height - box;  // Deduct box height for score display
